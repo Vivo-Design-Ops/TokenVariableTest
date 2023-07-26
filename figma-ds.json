@@ -201,6 +201,32 @@
       }
     }
   },
+  "mistica": {
+    "Color": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "$extensions": {
+        "variableId": "VariableID:102:181",
+        "aliasPath": "{mistica.Color}"
+      }
+    },
+    "Color 2": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "$extensions": {
+        "variableId": "VariableID:102:182",
+        "aliasPath": "{mistica.Color 2}"
+      }
+    }
+  },
   "Typography": {
     "title-lg": {
       "$value": {
@@ -273,7 +299,14 @@
       }
     }
   },
-  "Grids": {},
+  "Grids": {
+    "12 col": {
+      "$type": "grid",
+      "$value": {
+        "columnCount": 12
+      }
+    }
+  },
   "Effects": {
     "blur-lg": {
       "$type": "blur",
@@ -298,8 +331,9 @@
     "useDTCGKeys": true,
     "colorMode": "hex",
     "variableCollections": [
-      "tokens"
+      "tokens",
+      "mistica"
     ],
-    "createdAt": "2023-07-26T12:21:29.564Z"
+    "createdAt": "2023-07-26T12:23:31.190Z"
   }
 }
