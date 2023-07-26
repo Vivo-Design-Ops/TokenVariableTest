@@ -1,0 +1,305 @@
+{
+  "tokens": {
+    "colors": {
+      "base": {
+        "10": {
+          "$value": "#000000",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1431",
+            "aliasPath": "{tokens.colors.base.10}"
+          }
+        },
+        "25": {
+          "$value": "#555555",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1430",
+            "aliasPath": "{tokens.colors.base.25}"
+          }
+        },
+        "40": {
+          "$value": "#777777",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1428",
+            "aliasPath": "{tokens.colors.base.40}"
+          }
+        },
+        "50": {
+          "$value": "#999999",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1427",
+            "aliasPath": "{tokens.colors.base.50}"
+          }
+        },
+        "75": {
+          "$value": "#d6d6d6",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1426",
+            "aliasPath": "{tokens.colors.base.75}"
+          }
+        },
+        "90": {
+          "$value": "#f5f5f5",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1425",
+            "aliasPath": "{tokens.colors.base.90}"
+          }
+        },
+        "100": {
+          "$value": "#ffffff",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1429",
+            "aliasPath": "{tokens.colors.base.100}"
+          }
+        }
+      },
+      "semantic": {
+        "background": {
+          "$value": "{tokens.colors.base.90}",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:1:1434",
+            "aliasPath": "{tokens.colors.semantic.background}"
+          }
+        },
+        "highlight": {
+          "$value": "#e8ff5c",
+          "$type": "color",
+          "$description": "",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "$extensions": {
+            "variableId": "VariableID:17:540",
+            "aliasPath": "{tokens.colors.semantic.highlight}"
+          }
+        }
+      }
+    },
+    "spacers": {
+      "4": {
+        "$value": "4px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:779",
+          "aliasPath": "{tokens.spacers.4}"
+        }
+      },
+      "8": {
+        "$value": "8px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:780",
+          "aliasPath": "{tokens.spacers.8}"
+        }
+      },
+      "16": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:781",
+          "aliasPath": "{tokens.spacers.16}"
+        }
+      },
+      "24": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:782",
+          "aliasPath": "{tokens.spacers.24}"
+        }
+      },
+      "32": {
+        "$value": "32px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:783",
+          "aliasPath": "{tokens.spacers.32}"
+        }
+      },
+      "48": {
+        "$value": "48px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:784",
+          "aliasPath": "{tokens.spacers.48}"
+        }
+      },
+      "64": {
+        "$value": "64px",
+        "$type": "dimension",
+        "$description": "",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "$extensions": {
+          "variableId": "VariableID:16:785",
+          "aliasPath": "{tokens.spacers.64}"
+        }
+      }
+    }
+  },
+  "Typography": {
+    "title-lg": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "68px",
+        "lineHeight": "auto",
+        "letterSpacing": "0%"
+      },
+      "$type": "typography",
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:87857458ae6bc237b51f12df079f342eee1db89f,"
+      }
+    },
+    "title-md": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "48px",
+        "lineHeight": "100%",
+        "letterSpacing": "0%"
+      },
+      "$type": "typography",
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:59417699df0739b1c9f9ccae6a1bef4c20a0ec9f,"
+      }
+    },
+    "title-sm": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "32px",
+        "lineHeight": "110.00000238418579%",
+        "letterSpacing": "0%"
+      },
+      "$type": "typography",
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:57247da82b248f724e13c9d34d553f793290fc2c,"
+      }
+    },
+    "text-lg": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "26px",
+        "lineHeight": "139.9999976158142%",
+        "letterSpacing": "0%"
+      },
+      "$type": "typography",
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:29948132b65ec40e89e29b7b1e3e598ad690f4cd,"
+      }
+    },
+    "text-md": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "158.00000429153442%",
+        "letterSpacing": "0%"
+      },
+      "$type": "typography",
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6fe0c6e1dd12803047d4ec1e6bb88eb9bdd2403a,"
+      }
+    }
+  },
+  "Grids": {},
+  "Effects": {
+    "blur-lg": {
+      "$type": "blur",
+      "$value": {
+        "role": "layer",
+        "blur": "32px"
+      }
+    },
+    "shadow-md": {
+      "$type": "shadow",
+      "$value": {
+        "inset": false,
+        "color": "#00000026",
+        "offsetX": "0px",
+        "offsetY": "4px",
+        "blur": "14px",
+        "spread": "0px"
+      }
+    }
+  },
+  "$meta": {
+    "useDTCGKeys": true,
+    "colorMode": "hex",
+    "variableCollections": [
+      "tokens"
+    ],
+    "createdAt": "2023-07-26T12:21:29.564Z"
+  }
+}
